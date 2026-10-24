@@ -1,0 +1,11 @@
+# Installed and built inside the image, never copied from this computer
+node_modules
+dist
+
+# Local settings. The API address comes from the build argument in docker-compose.yml.
+.env
+.env.*
+
+Dockerfile
+.dockerignore
+npm-debug.log

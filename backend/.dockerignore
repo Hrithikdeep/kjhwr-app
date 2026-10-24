@@ -1,0 +1,12 @@
+# Never copy the local virtual environment or caches into the image.
+# The "**/" makes a pattern match in every folder, not just the top one.
+venv
+**/__pycache__
+**/*.pyc
+
+# Settings are passed in by docker-compose, not baked into the image
+.env
+.env.*
+
+Dockerfile
+.dockerignore

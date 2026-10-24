@@ -1,0 +1,23 @@
+# Environment files with real settings.
+# The .env.example templates are NOT ignored: they are committed on purpose.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
